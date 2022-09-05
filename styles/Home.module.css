@@ -1,0 +1,265 @@
+.chat_container{
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.chat{
+  background-color: #fff;
+  border: 1px solid #fff;
+  margin: 20px 0 0 0;
+  padding: 15px 10px;
+  box-shadow: 1px 1px 5px #ccc;
+}
+
+.chat_box{
+  margin-bottom: 1rem;
+}
+
+.chat_img{
+  padding: 0px;
+}
+
+.chat_img img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.chat_name{
+  padding: 0px;
+}
+
+.chat_name h3{
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.chat_name p{
+  font-size: 10px;
+  color: #4d4d4d;
+  font-weight: 500;
+  margin: 15px 0 0 0;
+  line-height: 2;
+}
+
+.chat_name h4{
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333;
+  padding: 5px 2px 2px 2px;
+  width: 60%;
+  margin: 10px 0 0 0;
+}
+
+.chat_name h4 img{
+  width: 15%;
+  padding: 0;
+  margin: 2px 5px;
+  margin-top: -3px;
+}
+
+.edit{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.edit p{
+  margin: 0;
+}
+
+.edit p a{
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.chat_box2{
+  border-top: 2px solid #f2f2f2;
+}
+
+.add{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+}
+
+.add p{
+  font-size: 10px;
+  color: #4d4d4d;
+  font-weight: 500;
+  margin: 0;
+}
+
+.add span{
+  font-size: 13px;
+  font-weight: 700;
+  color: #4d4d4d;
+  margin: 0;
+}
+
+.add p a{
+  font-size: 10px;
+  color: #4d4d4d;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.maruti{
+  font-size: 10px;
+  color: #4d4d4d;
+  font-weight: 500;
+  margin: 10px 0 20px 0;
+}
+
+.maruti span{
+  color: #000;
+  font-size: 14px;
+}
+
+.chat_img2{
+  padding: 0px;
+}
+
+.chat_img2 img{
+  width: 100%;
+}
+
+
+/* my activity */
+.chat2{
+  margin: 20px 0 0 0;
+  padding: 0;
+  box-shadow: 1px 1px 5px #ccc;
+  margin-bottom: 10px;
+}
+
+.chat2 h1{
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+  padding: 15px 0 0 10px;
+}
+
+.tab_nav{
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 10px;
+  margin-top: 15px;
+  border-bottom: 1px solid #f2f2f2;
+  /* flex-wrap: nowrap;
+  overflow-x: scroll; */
+}
+
+.tab_item{
+  margin-right: 15px;
+}
+
+.tab_link{
+  padding: 5px 10px;
+  text-align: center;
+  color: #000!important;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 0;
+}
+
+.tab_link:hover{
+  color: #000;
+}
+
+.tab_link span{
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tab_content{
+  background-color: #fff;
+  padding: 0.5rem 0;
+}
+
+.tab_box{
+  margin-top: 4px;
+  border-top: 1px solid #f2f2f2;
+  padding: 5px 10px;
+}
+
+.cancle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 13px;
+}
+
+.cancle p{
+  font-size: 14px;
+  color: #4d4d4d;
+  padding: 0;
+  margin: 0;
+}
+
+.cancle p span{
+  color: #0040ff;
+}
+
+.cancle_btn{
+  font-weight: 900;
+}
+
+.tab_box h3{
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 10px;
+}
+
+.form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form_box{
+  padding: 6px 10px;
+  font-size: 12px!important;
+  color: #4d4d4d;
+  border-radius: 0!important;
+  border: 1px solid #e6e6e6;
+}
+
+.tab_box h5{
+  font-size: 12px;
+  font-weight: 500;
+  color: #0040ff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.tab_box h5 span{
+  font-size: 30px;
+  transform: translateY(200px)!important;
+}
+
+
+
+@media (max-width: 767px) {
+  .tab_link{
+      padding: 5px 10px;
+      font-size: 16px;
+  }
+  
+  .tab_link span{
+      font-size: 12px;
+  }
+
+  .tab_nav{
+      flex-wrap: nowrap !important;
+      overflow-x: auto !important;
+  }
+}
